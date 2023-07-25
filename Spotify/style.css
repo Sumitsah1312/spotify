@@ -1,0 +1,142 @@
+
+body{
+    background-color: rgb(218, 227, 234);
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* Navigaation Bar  */
+
+nav{
+    font-family: sans-serif;
+}
+
+nav ul{
+    background-color: black;
+    display: flex;
+    align-items: center;
+    color: white;
+    list-style-type: none;
+    height: 50px;
+
+}
+nav ul li{
+    padding: 0 8px;
+}
+
+.brand img{
+    height: 43px;
+    padding: 0 5px;
+}
+.brand{
+    display: flex;
+    align-items: center;
+    padding-left: 5px;
+    padding-right: 20px;
+
+}
+.container{
+    min-height: 72vh;
+    background-color: black;
+    color: white;
+    display: flex;
+    max-width: 70%;
+    margin: 10px auto;
+    border-radius: 1rem;
+    padding: 10px;
+    background-image: url('bg.jpg');
+
+    background-size: cover;
+    background-blend-mode: hard-light;
+    background-position-x: center;
+    background-position-y: center;
+
+}
+
+.bottom{
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    position: sticky;
+    bottom: 0;
+    flex-direction: column;
+
+}
+
+.icons{
+    margin: 15px;
+}
+
+#myProgressBar{
+    min-width: 80vw;
+    cursor: pointer;
+}
+
+.songItem{
+    background-color: antiquewhite;
+    color: black;
+    height: 44px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0.925rem;
+    /* padding: 5px; */
+    margin: 10px;
+    /* width: 80%; */
+    
+}
+
+.songItem img{
+    width: 43px;
+    margin-left: 1rem;
+    margin-right: 2rem;
+    border-radius: 1.625rem;
+
+}
+
+
+.timestamp{
+    /* margin: 0 5px; */
+    padding: 0 12px;
+    position: relative;
+    right: 10px;
+    left: 13%;
+
+    
+}
+
+.timestamp i{
+    cursor: pointer;
+}
+
+.songinfo{
+    width:100%;
+    position: absolute;
+    left: 1px;
+    bottom: 7px;
+}
+.songinfo img {
+    position:relative ;
+    /* left: 10vw; */
+    width:10%;
+    left: 0.5rem;
+    /* padding: 1rem; */
+    opacity: 0;
+    transition: opacity 1s ease-in;
+}
+
+
+i{
+    cursor: pointer;
+}
+
+.sname{
+    position: absolute;
+    right: 3vw;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
